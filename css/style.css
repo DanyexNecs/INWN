@@ -35,28 +35,31 @@ body{
 }
 
 header{
+    display: flex;
     position: fixed;
     top: 5%;
-    left: 152px;
+    left: 142px;
+    right: 142px;
     border: 5px;
-    border-color: 305DF3;
-    
-}
-nav{
-    display: flex;
-    width: 100%;
+    border-color: #305DF3;
     background-color: black;
     border-radius: 40px;
-    padding: 15px 0 15px 30px;
+    padding: 10px 0 10px 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
-nav a{
+nav{
+    
+    display: flex;
+    
+}
+header a{
     font-family: 'Anonymous Pro';
     display: inline-block;
-    text-align: center;
-    /* padding: 33px 0 33px 54px; */
-    vertical-align: middle  ;
+    vertical-align: middle;
 }
-nav button{
+header button{
     color: black;
     background-color: white;
     border-radius: 20px;
