@@ -1,0 +1,64 @@
+.anonymous-pro-regular {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .anonymous-pro-bold {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .anonymous-pro-regular-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .anonymous-pro-bold-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
+body{
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    top: 5%;
+    left: 152px;
+    border: 5px;
+    border-color: 305DF3;
+    
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    border-radius: 40px;
+    padding: 15px 0 15px 30px;
+}
+nav a{
+    font-family: 'Anonymous Pro';
+    display: inline-block;
+    text-align: center;
+    /* padding: 33px 0 33px 54px; */
+    vertical-align: middle  ;
+}
+nav button{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
